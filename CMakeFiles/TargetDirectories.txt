@@ -1,1 +1,1 @@
-/root/learngit/src/CMakeFiles/main.dir
+/root/game_first/src/CMakeFiles/main.dir

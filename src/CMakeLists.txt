@@ -1,7 +1,7 @@
 set(myexe_EXEC_SRCS
     main.cpp
-    /root/learngit/src/Demo/Common/SimpleEvent.cpp
-    /root/learngit/src/Demo/TapQuoteAPI/Quote.cpp
+    ${PROJECT_SOURCE_DIR}/src/Demo/Common/SimpleEvent.cpp
+    ${PROJECT_SOURCE_DIR}/src/Demo/TapQuoteAPI/Quote.cpp
     )
 
 include_directories(
@@ -15,7 +15,7 @@ include_directories(
 
 link_directories(
     /usr/lib64/
-    /root/learngit/lib
+    ${PROJECT_SOURCE_DIR}/lib
     #$ENV{ORACLE_HOME}/lib
 )
 

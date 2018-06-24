@@ -1,1 +1,1 @@
-/usr/bin/c++    -g -Wall -O2    CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o  -o ../bin/main  -L/root/learngit/lib -rdynamic -lconfig++ -lTapQuoteAPI -Wl,-rpath,/root/learngit/lib 
+/usr/bin/c++    -g -Wall -O2    CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o  -o ../bin/main  -L/root/game_first/lib -rdynamic -lconfig++ -lTapQuoteAPI -Wl,-rpath,/root/game_first/lib 

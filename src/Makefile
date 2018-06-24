@@ -42,10 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/learngit
+CMAKE_SOURCE_DIR = /root/game_first
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/learngit
+CMAKE_BINARY_DIR = /root/game_first
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /root/learngit && $(CMAKE_COMMAND) -E cmake_progress_start /root/learngit/CMakeFiles /root/learngit/src/CMakeFiles/progress.marks
-	cd /root/learngit && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/learngit/CMakeFiles 0
+	cd /root/game_first && $(CMAKE_COMMAND) -E cmake_progress_start /root/game_first/CMakeFiles /root/game_first/src/CMakeFiles/progress.marks
+	cd /root/game_first && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/game_first/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /root/learngit && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /root/game_first && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,22 +88,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /root/learngit && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /root/game_first && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /root/learngit && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /root/game_first && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /root/learngit && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/game_first && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/main.dir/rule:
-	cd /root/learngit && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
+	cd /root/game_first && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/rule
 .PHONY : src/CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -112,7 +112,7 @@ main: src/CMakeFiles/main.dir/rule
 
 # fast build rule for target.
 main/fast:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
 .PHONY : main/fast
 
 Demo/Common/SimpleEvent.o: Demo/Common/SimpleEvent.cpp.o
@@ -120,7 +120,7 @@ Demo/Common/SimpleEvent.o: Demo/Common/SimpleEvent.cpp.o
 
 # target to build an object file
 Demo/Common/SimpleEvent.cpp.o:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o
 .PHONY : Demo/Common/SimpleEvent.cpp.o
 
 Demo/Common/SimpleEvent.i: Demo/Common/SimpleEvent.cpp.i
@@ -128,7 +128,7 @@ Demo/Common/SimpleEvent.i: Demo/Common/SimpleEvent.cpp.i
 
 # target to preprocess a source file
 Demo/Common/SimpleEvent.cpp.i:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i
 .PHONY : Demo/Common/SimpleEvent.cpp.i
 
 Demo/Common/SimpleEvent.s: Demo/Common/SimpleEvent.cpp.s
@@ -136,7 +136,7 @@ Demo/Common/SimpleEvent.s: Demo/Common/SimpleEvent.cpp.s
 
 # target to generate assembly for a file
 Demo/Common/SimpleEvent.cpp.s:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s
 .PHONY : Demo/Common/SimpleEvent.cpp.s
 
 Demo/TapQuoteAPI/Quote.o: Demo/TapQuoteAPI/Quote.cpp.o
@@ -144,7 +144,7 @@ Demo/TapQuoteAPI/Quote.o: Demo/TapQuoteAPI/Quote.cpp.o
 
 # target to build an object file
 Demo/TapQuoteAPI/Quote.cpp.o:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o
 .PHONY : Demo/TapQuoteAPI/Quote.cpp.o
 
 Demo/TapQuoteAPI/Quote.i: Demo/TapQuoteAPI/Quote.cpp.i
@@ -152,7 +152,7 @@ Demo/TapQuoteAPI/Quote.i: Demo/TapQuoteAPI/Quote.cpp.i
 
 # target to preprocess a source file
 Demo/TapQuoteAPI/Quote.cpp.i:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i
 .PHONY : Demo/TapQuoteAPI/Quote.cpp.i
 
 Demo/TapQuoteAPI/Quote.s: Demo/TapQuoteAPI/Quote.cpp.s
@@ -160,7 +160,7 @@ Demo/TapQuoteAPI/Quote.s: Demo/TapQuoteAPI/Quote.cpp.s
 
 # target to generate assembly for a file
 Demo/TapQuoteAPI/Quote.cpp.s:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s
 .PHONY : Demo/TapQuoteAPI/Quote.cpp.s
 
 main.o: main.cpp.o
@@ -168,7 +168,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -176,7 +176,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -184,7 +184,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /root/learngit && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
+	cd /root/game_first && $(MAKE) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -216,6 +216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /root/learngit && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/game_first && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

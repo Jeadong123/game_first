@@ -253,7 +253,14 @@ void TAP_CDECL Quote::OnRtnQuote(const TapAPIQuoteWhole *info)
 			<< info->Contract.Commodity.CommodityNo << " "
 			<< info->Contract.ContractNo1 << " "
 			<< info->QLastPrice
+			<< "最新成交量" << info->QLastQty << " "
+			<< "当日总成交量" << info->QTotalQty << " "
+			<< "持仓量" << info->QPositionQty<< " "
 			// ...
+			<< "卖价0档" << info->QAskPrice[0]
+			<< "买价0档" << info->QBidPrice[0]
+			<< "卖量0档" << info->QAskQty[0]
+			<< "买量0档" << info->QBidQty[0]
 			<<endl;
 	}
 }

@@ -4,9 +4,9 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/root/learngit/src/Demo/Common/SimpleEvent.cpp" "/root/learngit/src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o"
-  "/root/learngit/src/Demo/TapQuoteAPI/Quote.cpp" "/root/learngit/src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o"
-  "/root/learngit/src/main.cpp" "/root/learngit/src/CMakeFiles/main.dir/main.cpp.o"
+  "/root/game_first/src/Demo/Common/SimpleEvent.cpp" "/root/game_first/src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o"
+  "/root/game_first/src/Demo/TapQuoteAPI/Quote.cpp" "/root/game_first/src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o"
+  "/root/game_first/src/main.cpp" "/root/game_first/src/CMakeFiles/main.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

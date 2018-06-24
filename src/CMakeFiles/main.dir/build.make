@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/learngit
+CMAKE_SOURCE_DIR = /root/game_first
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/learngit
+CMAKE_BINARY_DIR = /root/game_first
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/main.dir/depend.make
@@ -54,17 +54,17 @@ include src/CMakeFiles/main.dir/flags.make
 
 src/CMakeFiles/main.dir/main.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/main.cpp.o: src/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/learngit/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/game_first/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/main.dir/main.cpp.o"
-	cd /root/learngit/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /root/learngit/src/main.cpp
+	cd /root/game_first/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cpp.o -c /root/game_first/src/main.cpp
 
 src/CMakeFiles/main.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cpp.i"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/learngit/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/game_first/src/main.cpp > CMakeFiles/main.dir/main.cpp.i
 
 src/CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/learngit/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/game_first/src/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
 src/CMakeFiles/main.dir/main.cpp.o.requires:
 .PHONY : src/CMakeFiles/main.dir/main.cpp.o.requires
@@ -77,17 +77,17 @@ src/CMakeFiles/main.dir/main.cpp.o.provides.build: src/CMakeFiles/main.dir/main.
 
 src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o: src/Demo/Common/SimpleEvent.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/learngit/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/game_first/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o"
-	cd /root/learngit/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o -c /root/learngit/src/Demo/Common/SimpleEvent.cpp
+	cd /root/game_first/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o -c /root/game_first/src/Demo/Common/SimpleEvent.cpp
 
 src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/learngit/src/Demo/Common/SimpleEvent.cpp > CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/game_first/src/Demo/Common/SimpleEvent.cpp > CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.i
 
 src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/learngit/src/Demo/Common/SimpleEvent.cpp -o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/game_first/src/Demo/Common/SimpleEvent.cpp -o CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.s
 
 src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o.requires:
 .PHONY : src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o.requires
@@ -100,17 +100,17 @@ src/CMakeFiles/main.dir/Demo/Common/SimpleEvent.cpp.o.provides.build: src/CMakeF
 
 src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o: src/CMakeFiles/main.dir/flags.make
 src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o: src/Demo/TapQuoteAPI/Quote.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /root/learngit/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /root/game_first/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o"
-	cd /root/learngit/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o -c /root/learngit/src/Demo/TapQuoteAPI/Quote.cpp
+	cd /root/game_first/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o -c /root/game_first/src/Demo/TapQuoteAPI/Quote.cpp
 
 src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/learngit/src/Demo/TapQuoteAPI/Quote.cpp > CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /root/game_first/src/Demo/TapQuoteAPI/Quote.cpp > CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.i
 
 src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s"
-	cd /root/learngit/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/learngit/src/Demo/TapQuoteAPI/Quote.cpp -o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s
+	cd /root/game_first/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /root/game_first/src/Demo/TapQuoteAPI/Quote.cpp -o CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.s
 
 src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o.requires:
 .PHONY : src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o.requires
@@ -136,7 +136,7 @@ bin/main: src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote.cpp.o
 bin/main: src/CMakeFiles/main.dir/build.make
 bin/main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable ../bin/main"
-	cd /root/learngit/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
+	cd /root/game_first/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/main.dir/build: bin/main
@@ -148,10 +148,10 @@ src/CMakeFiles/main.dir/requires: src/CMakeFiles/main.dir/Demo/TapQuoteAPI/Quote
 .PHONY : src/CMakeFiles/main.dir/requires
 
 src/CMakeFiles/main.dir/clean:
-	cd /root/learngit/src && $(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
+	cd /root/game_first/src && $(CMAKE_COMMAND) -P CMakeFiles/main.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/main.dir/clean
 
 src/CMakeFiles/main.dir/depend:
-	cd /root/learngit && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/learngit /root/learngit/src /root/learngit /root/learngit/src /root/learngit/src/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/game_first && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/game_first /root/game_first/src /root/game_first /root/game_first/src /root/game_first/src/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/main.dir/depend
 

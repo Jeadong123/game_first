@@ -1,4 +1,4 @@
-# Install script for directory: /root/learngit/src
+# Install script for directory: /root/game_first/src
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

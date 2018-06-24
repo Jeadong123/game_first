@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/root/learngit/src/./Demo/Common/SimpleEvent.h
+/root/game_first/src/./Demo/Common/SimpleEvent.h
 WinSock2.h
 -
 Windows.h
@@ -14,23 +14,23 @@ Windows.h
 pthread.h
 -
 
-/root/learngit/src/./Demo/TapQuoteAPI/Quote.h
+/root/game_first/src/./Demo/TapQuoteAPI/Quote.h
 TapQuoteAPI.h
-/root/learngit/src/./Demo/TapQuoteAPI/TapQuoteAPI.h
+/root/game_first/src/./Demo/TapQuoteAPI/TapQuoteAPI.h
 ../Common/SimpleEvent.h
-/root/learngit/src/./Demo/Common/SimpleEvent.h
+/root/game_first/src/./Demo/Common/SimpleEvent.h
 
-/root/learngit/src/./Demo/TapQuoteAPI/QuoteConfig.h
+/root/game_first/src/./Demo/TapQuoteAPI/QuoteConfig.h
 string.h
 -
 
-/root/learngit/src/Demo/Common/SimpleEvent.cpp
+/root/game_first/src/Demo/Common/SimpleEvent.cpp
 SimpleEvent.h
-/root/learngit/src/Demo/Common/SimpleEvent.h
+/root/game_first/src/Demo/Common/SimpleEvent.h
 errno.h
 -
 
-/root/learngit/src/Demo/Common/SimpleEvent.h
+/root/game_first/src/Demo/Common/SimpleEvent.h
 WinSock2.h
 -
 Windows.h
@@ -38,29 +38,29 @@ Windows.h
 pthread.h
 -
 
-/root/learngit/src/Demo/TapQuoteAPI/Quote.cpp
+/root/game_first/src/Demo/TapQuoteAPI/Quote.cpp
 Quote.h
-/root/learngit/src/Demo/TapQuoteAPI/Quote.h
+/root/game_first/src/Demo/TapQuoteAPI/Quote.h
 TapAPIError.h
-/root/learngit/src/Demo/TapQuoteAPI/TapAPIError.h
+/root/game_first/src/Demo/TapQuoteAPI/TapAPIError.h
 QuoteConfig.h
-/root/learngit/src/Demo/TapQuoteAPI/QuoteConfig.h
+/root/game_first/src/Demo/TapQuoteAPI/QuoteConfig.h
 iostream
 -
 string.h
 -
 
-/root/learngit/src/Demo/TapQuoteAPI/Quote.h
+/root/game_first/src/Demo/TapQuoteAPI/Quote.h
 TapQuoteAPI.h
-/root/learngit/src/Demo/TapQuoteAPI/TapQuoteAPI.h
+/root/game_first/src/Demo/TapQuoteAPI/TapQuoteAPI.h
 ../Common/SimpleEvent.h
-/root/learngit/src/Demo/Common/SimpleEvent.h
+/root/game_first/src/Demo/Common/SimpleEvent.h
 
-/root/learngit/src/Demo/TapQuoteAPI/QuoteConfig.h
+/root/game_first/src/Demo/TapQuoteAPI/QuoteConfig.h
 string.h
 -
 
-/root/learngit/src/main.cpp
+/root/game_first/src/main.cpp
 iostream
 -
 libconfig.h++
@@ -70,13 +70,13 @@ string.h
 stdio.h
 -
 TapQuoteAPI.h
-/root/learngit/src/TapQuoteAPI.h
+/root/game_first/src/TapQuoteAPI.h
 TapAPIError.h
-/root/learngit/src/TapAPIError.h
+/root/game_first/src/TapAPIError.h
 ./Demo/TapQuoteAPI/Quote.h
-/root/learngit/src/./Demo/TapQuoteAPI/Quote.h
+/root/game_first/src/./Demo/TapQuoteAPI/Quote.h
 ./Demo/TapQuoteAPI/QuoteConfig.h
-/root/learngit/src/./Demo/TapQuoteAPI/QuoteConfig.h
+/root/game_first/src/./Demo/TapQuoteAPI/QuoteConfig.h
 
 include/TapAPICommDef.h
 
